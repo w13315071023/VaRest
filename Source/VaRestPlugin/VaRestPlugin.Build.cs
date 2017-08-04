@@ -6,7 +6,7 @@ namespace UnrealBuildTool.Rules
 {
 	public class VaRestPlugin : ModuleRules
 	{
-		public VaRestPlugin(ReadOnlyTargetRules Target) : base(Target)
+		public VaRestPlugin(TargetInfo Target)
 		{
             PrivateIncludePaths.AddRange(
 				new string[] {
